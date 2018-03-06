@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Example01.iml" filepath="$PROJECT_DIR$/Example01.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/charting-release/charting-release.iml" filepath="$PROJECT_DIR$/charting-release/charting-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-release/common-release.iml" filepath="$PROJECT_DIR$/common-release/common-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grid-release/grid-release.iml" filepath="$PROJECT_DIR$/grid-release/grid-release.iml" />
     </modules>
   </component>
 </project>
