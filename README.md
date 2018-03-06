@@ -1,13 +1,13 @@
-2. 안드로이드에서 Grid 만들기 
+1. 안드로이드에서 Grid 만들기 
 
-2-1 안드로이드 폰에서 보이는 결과값은 다음과 같습니다. 
-
-
+1-1 안드로이드 폰에서 보이는 결과값은 다음과 같습니다. 
 
 
 
+<img width="342" alt="2018-02-19 3 13 09" src="https://user-images.githubusercontent.com/16948394/37020650-d9756aa4-215f-11e8-8509-6dadccd42ce6.png">
 
-2-2 csv파일(gridtest.csv)을 불러올수있게 코드를 추가합니다.
+
+1-2 csv파일(gridtest.csv)을 불러올수있게 코드를 추가합니다.
 
 
 InputStream is = context.getResources().openRawResource(R.raw.gridtest);
@@ -26,12 +26,12 @@ try {
 
 
 
-2-3 csv파일의 처음 줄에 위치한 Country or Area, Year, Value를 타입에 맞게 데이터 필드를 생성한다.
+1-3 csv파일의 처음 줄에 위치한 Country or Area, Year, Value를 타입에 맞게 데이터 필드를 생성한다.
 
 
 
 
-2-4 Column을 보여주고 싶은 형태로 코드를 작성합니다.
+1-4 Column을 보여주고 싶은 형태로 코드를 작성합니다.
 
 
    DataColumn.create("Country or Area", "Country or Area", new ColumnCallback<DataColumn>() {
@@ -72,7 +72,7 @@ try {
   보여지는 숫자의 형태는 천단위로 끊었고, 마지막으로 Value에 해당하는 값의 합을 표현했습니다.
 
 
-2-5  각 행의 변화에따른 색상 변화로 결과는 다음과 같습니다. 
+1-5  각 행의 변화에따른 색상 변화로 결과는 다음과 같습니다. 
 
 grid.getBody().getCheckedStyles().setFill(Fill.create("#2000ff88")); // 행 체크시
 grid.getBody().getUpdatedStyles().setFill(Fill.create("#10000000")); // 값 수정시
@@ -80,7 +80,7 @@ grid.getBody().getUpdatedStyles().setFill(Fill.create("#10000000")); // 값 수�
 
 
 
-2-6 아래는 기본 그리드를 만드는데 사용한 전체 코드 입니다.
+1-6 아래는 기본 그리드를 만드는데 사용한 전체 코드 입니다.
 
 
 public class HelloGridDemo implements IGridDemo {
