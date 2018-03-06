@@ -1,7 +1,7 @@
+
 1. 안드로이드에서 Grid 만들기 
 
 1-1 안드로이드 폰에서 보이는 결과값은 다음과 같습니다. 
-
 
 
 <img width="342" alt="2018-02-19 3 13 09" src="https://user-images.githubusercontent.com/16948394/37020650-d9756aa4-215f-11e8-8509-6dadccd42ce6.png">
@@ -23,11 +23,10 @@ try {
 
 
 
-
-
-
 1-3 csv파일의 처음 줄에 위치한 Country or Area, Year, Value를 타입에 맞게 데이터 필드를 생성한다.
 
+
+![2018-02-19 3 34 07](https://user-images.githubusercontent.com/16948394/37020670-ee1dc992-215f-11e8-8483-1b133d8bdd4f.png)
 
 
 
@@ -77,7 +76,7 @@ try {
 grid.getBody().getCheckedStyles().setFill(Fill.create("#2000ff88")); // 행 체크시
 grid.getBody().getUpdatedStyles().setFill(Fill.create("#10000000")); // 값 수정시
 
-
+<img width="319" alt="2018-02-19 4 06 55" src="https://user-images.githubusercontent.com/16948394/37020684-f96fd092-215f-11e8-84be-6dcbb011b109.png">
 
 
 1-6 아래는 기본 그리드를 만드는데 사용한 전체 코드 입니다.
