@@ -156,9 +156,7 @@ grid.getBody().getUpdatedStyles().setFill(Fill.create("#10000000")); // 값 수�
    	   }
 	}
 
+## 1. 9 최종결과
 
-
-
-
-
+<img width="342" alt="2018-02-19 3 13 09" src="https://user-images.githubusercontent.com/16948394/37020650-d9756aa4-215f-11e8-8509-6dadccd42ce6.png">
 
