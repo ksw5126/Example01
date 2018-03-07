@@ -1,13 +1,13 @@
 Android - Grid 
 ======================
 
-# 1. 안드로이드에서 Grid 만들기
-## 1. 1 안드로이드 폰에서 보이는 결과값은 다음과 같습니다.
+# 1.  안드로이드에서 Grid 만들기
+## 1. 1  안드로이드 폰에서 보이는 결과값은 다음과 같습니다.
 
 <img width="342" alt="2018-02-19 3 13 09" src="https://user-images.githubusercontent.com/16948394/37020650-d9756aa4-215f-11e8-8509-6dadccd42ce6.png">
 
 
-## 1. 2 프로젝트 생성
+## 1. 2  프로젝트 생성
 
 	1> 안드로이드 스튜디오를 실행하고 File → New → New Project 를 선택해서 새 프로젝트를 생성합니다.
 	2> 요구하는 SDK를 선택하고, 지원하는 최소 SDK인  API 버전 15(IceCreamSandwich) 를 선택합니다.
