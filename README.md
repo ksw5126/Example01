@@ -60,7 +60,7 @@ Android - Grid
        		}
    	}),
 
-:  Column의 이름은 “Country or Area”, 폭은 100의 크기로 지정했다. 
+: Column의 이름은 "Country or Area"이고, 폭은 100의 크기로 지정했다.
 
    	DataColumn.create("Year", "Year", new ColumnCallback<DataColumn>() {
        	@Override
@@ -70,7 +70,7 @@ Android - Grid
    	    	}
    	}),
 
-: Column의 이름은 “Year”, 폭의 크기는 60으로 했고, 텍스트를 오른쪽정렬로 지정했다.
+: Column의 이름은 “Year”이고, 폭은 60의 크기로 지정 했고, 텍스트를 오른쪽정렬로 지정했다.
 
 	   DataColumn.create("Value", "Value", new ColumnCallback<DataColumn>() {
        	   @Override
@@ -82,8 +82,8 @@ Android - Grid
        		}
    	   }),
 
-: Column의 이름은 “Value”, 폭의 크기는 170으로 했고, 텍스트를 오른쪽 지정으로 했으며 
-  보여지는 숫자의 형태는 천단위로 끊었고, 마지막으로 Value에 해당하는 값의 합을 표현했습니다.
+: Column의 이름은 “Value”이고, 폭은 170의 크기로 지정 했고, 텍스트를 오른쪽정렬로 지정 했으며 
+  	보여지는 숫자의 형태는 천단위로 끊었고, 마지막으로 Value에 해당하는 값의 합을 표현했습니다.
 
 ## 1. 7 각 행의 변화에따른 색상 변화로 결과는 다음과 같습니다.
 
