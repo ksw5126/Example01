@@ -1,4 +1,4 @@
-Getting Started
+Android - Grid 
 ======================
 
 # 1. 안드로이드에서 Grid 만들기
